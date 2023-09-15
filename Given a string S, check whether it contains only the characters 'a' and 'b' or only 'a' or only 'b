@@ -1,0 +1,9 @@
+n=input()
+l=[]
+for i in n:
+  if i=='a' or i=='b':
+    l.append(i)
+if len(n)==len(l):
+  print("yes")
+else:
+  print("no")
